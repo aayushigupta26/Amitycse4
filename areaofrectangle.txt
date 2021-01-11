@@ -1,0 +1,23 @@
+#include<stdio.h>
+
+int main()
+{
+    int physics,maths,chem;
+    float total;
+    printf("enter the percentage in physics\n");
+    scanf("%d", &physics);
+    printf("enter the percentage in maths\n");
+    scanf("%d",&maths);
+    printf("enter the percentage in chem\n");
+    scanf("%d", &chem);
+    total = (maths+physics+chem) ;
+    if((total>40) && physics>33 && chem>33 && maths>33 )
+    {
+      printf(" you are pass with total %f\n",total);
+    }
+    else
+    {
+        printf(" you are fail with total %f\n",total);
+    }
+    return 0;
+}
