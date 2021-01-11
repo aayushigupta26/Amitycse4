@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main(){
+    int i,n, factorial=1;
+    printf("enter value of n");
+    scanf("%d",&n);
+    for(i=n;i;i--){
+        factorial*=i;
+    }
+    printf("enter the value of factorail of n is %d", factorial);
+    return 0;
+}
